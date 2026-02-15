@@ -30,7 +30,7 @@ export default function ProductCards() {
 
             <div className="p-5 text-gray-700">
               <h3 className="text-[18px] font-semibold mb-2">{product.name}</h3>
-              <p className="text-gray-600 mb-6 font-semibold">Price: <span className="text-yellow-700">$</span>{product.price}</p>
+              <p className="text-gray-700 mb-6 font-semibold">Price: ${product.price}</p>
 
               <Link
                 href={`/products/${product.id}`}
@@ -46,7 +46,7 @@ export default function ProductCards() {
       <div className="text-center mt-10">
         <Link
           href="/products"
-          className="mt-6 bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-black transition"
+          className="mt-6 bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-800 transition"
         >
           See All Products →
         </Link>
