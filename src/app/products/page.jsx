@@ -30,7 +30,7 @@ export default function AllProducts() {
 
               <Link
                 href={`/products/${product.id}`}
-                className="imt-6 text-green-700 underline py-3 rounded-lg hover:bg-black transition"
+                className="imt-6 text-green-700 underline py-3 rounded-lg transition"
               >
                 View Details →
               </Link>

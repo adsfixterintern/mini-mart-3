@@ -30,11 +30,11 @@ export default function ProductCards() {
 
             <div className="p-5 text-gray-700">
               <h3 className="text-[18px] font-semibold mb-2">{product.name}</h3>
-              <p className="text-gray-700 mb-6 font-semibold">Price: <span className="text-yellow-700">$</span>{product.price}</p>
+              <p className="text-gray-600 mb-6 font-semibold">Price: <span className="text-yellow-700">$</span>{product.price}</p>
 
               <Link
                 href={`/products/${product.id}`}
-                className="imt-6 text-green-700 underline py-3 rounded-lg hover:bg-black transition"
+                className="imt-6 text-green-700 underline py-3 rounded-lg transition"
               >
                 View Details →
               </Link>
